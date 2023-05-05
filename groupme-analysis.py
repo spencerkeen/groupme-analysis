@@ -22,7 +22,7 @@ while True:
       break
 
   print(groupChoice.name)
-  print("If this is the group you want to analyze, then type \'Y\'. If not, then type \'N\' and give a substring of the name: ")
+  print("If this is the group you want to analyze, then type \'Y\'. If not, then type \'N\' and give a unique substring of the name: ")
   response = input()
   if response == 'Y':
     break
